@@ -143,7 +143,7 @@ outputfile <- "tandem_background.Rdata"
 
 metadata <- read.table("barcode_celltype.tsv",header=T,row.names="barcode",sep="\t")
 
-polyA_meta <- fread(metadata_tandem.txt")
+polyA_meta <- fread("metadata_tandem.txt")
 polyA_meta <- as.data.frame(polyA_meta)
 rownames(polyA_meta) <- polyA_meta$peak
 load("polyA_assay_annotations.Rdata")
