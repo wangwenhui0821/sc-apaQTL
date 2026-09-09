@@ -1,12 +1,12 @@
 ######################### input prepare ######################### 
 #!/usr/bin/Rscript
 
-suppressMessages(library("tidyverse")) # 2.0.0
-suppressMessages(library("data.table")) # 1.16.2
-suppressMessages(library("yaml")) # 2.3.10
-suppressMessages(library("stringr")) # 1.5.1
-suppressMessages(library("optparse")) # 1.7.5
-suppressMessages(library("R.utils")) # 2.12.3
+suppressMessages(library("tidyverse")) # Version: 2.0.0
+suppressMessages(library("data.table")) # Version: 1.16.2
+suppressMessages(library("yaml")) # Version: 2.3.10
+suppressMessages(library("stringr")) # Version: 1.5.1
+suppressMessages(library("optparse")) # Version: 1.7.5
+suppressMessages(library("R.utils")) # Version: 2.12.3
 
 VERSION = "V1.1.1 2024-12-23"
 
