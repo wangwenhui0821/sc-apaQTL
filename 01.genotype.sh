@@ -1,3 +1,9 @@
+# plink（version 1.90b6.21）
+# python（version 3.6.15）
+# smartpca（version 16000）
+# gcta64（version 1.94.1）
+# bcftools（version 1.8）
+
 # fillter_chrom
 plink --file genotype.sex --exclude snp2del.txt --recode --out genotype.sex.qc1
 
