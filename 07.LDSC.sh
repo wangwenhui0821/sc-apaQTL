@@ -1,3 +1,5 @@
+# ldsc software (version 1.0.1)
+
 ######################### make annotation ######################### 
 chrs <- 1:22
 for chr in $(seq 1 22)
