@@ -1,9 +1,9 @@
-library(survey)
-library(gsmr2)
-library(TwoSampleMR)
-library(plinkbinr)
-library(ieugwasr)
-library(data.table)
+library(survey) # 4.2.1
+library(gsmr2) # 1.1.1
+library(TwoSampleMR) # 0.6.6
+library(plinkbinr) # 0.0.0.9000
+library(ieugwasr) # 1.1.0
+library(data.table) # 1.18.4
 
 diseaseV <- c("MS.GCST003566", "PSO.GCST90243956", "SLE.GCST90011866", "T1DM.GCST90014023",
               "CD.ibdgc", "IBD.ibdgc", "RA.jenger", "Celiac.phecode557")
