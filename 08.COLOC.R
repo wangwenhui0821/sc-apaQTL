@@ -1,7 +1,7 @@
-library(parallel)
-library(data.table)
-library(coloc)
-library(dplyr)
+library(parallel) # 4.0.3
+library(data.table) # 1.18.4
+library(coloc) # 5.2.3
+library(dplyr) # 1.1.4
 
 cellTypeV <- c("CD4_Naive", "CD4_TCM", "CD4_TEM", "CD4_CTL", "CD8_Naive", "CD8_TCM", "CD8_TEM",
                "T_Reg", "gdT", "MAIT", "NK", "NK_R", "B_Mem", "B_IN", "Mono_C", "Mono_NC", "DC")
