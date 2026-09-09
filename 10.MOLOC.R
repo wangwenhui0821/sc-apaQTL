@@ -1,7 +1,7 @@
-library(data.table) # 1.18.4
-library(dplyr) # 1.1.4
-library(moloc) # 0.1.0
-library(purrr) # 1.0.4
+library(data.table) # Version: 1.18.4
+library(dplyr) # Version: 1.1.4
+library(moloc) # Version: 0.1.0
+library(purrr) # Version: 1.0.4
 
 diseaseV <- c("MS.GCST003566", "PSO.GCST90243956", "SLE.GCST90011866", "T1DM.GCST90014023",
               "CD.ibdgc", "IBD.ibdgc", "RA.jenger", "Celiac.phecode557")
