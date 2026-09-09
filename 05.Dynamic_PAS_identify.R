@@ -1,4 +1,4 @@
-library(tibble) # Version: 3.3.1
+library(tibble) # Version 3.3.1
 
 outdir <- "Dynamic"
 q_levels <- c("Q1", "Q2", "Q3", "Q4", "Q5", "Q6")
