@@ -47,10 +47,10 @@ done
 
 
 # PASTA: filter polyA site
-library(PASTA)
-library(EnsDb.Hsapiens.v86)
-library(org.Hs.eg.db)
-library(dplyr)
+library(PASTA) # Version 0.1.0
+library(EnsDb.Hsapiens.v86) # Version 2.99.0
+library(org.Hs.eg.db) # Version 3.19.1
+library(dplyr) # Version 1.1.4
 
 dir = "meta/"
 setwd(dir)
@@ -123,15 +123,15 @@ print(runningtime)
 
 
 # PASTA: background (tandem)
-library(PASTA)
-library(EnsDb.Hsapiens.v86)
-library(org.Hs.eg.db)
-library(clusterProfiler)
-library(dplyr)
-library(data.table)
-library(MGLM)
-library(gplm)
-library(stats)
+library(PASTA) # Version 0.1.0
+library(EnsDb.Hsapiens.v86) # Version 2.99.0
+library(org.Hs.eg.db) # Version 3.19.1
+library(clusterProfiler) # Version 4.12.5
+library(dplyr) # Version 1.1.4
+library(data.table) # Version 1.15.4
+library(MGLM) # Version 0.2.1
+library(gplm) # Version 0.7.4
+library(stats) # Version 4.4.0
 
 counts.file = "polyApipe_result/tandem_merged_filtered_counts_modified.background.tab"
 output_dir = "PASTA_result/background/"
@@ -174,15 +174,15 @@ seurat_obj <- CalcPolyAResiduals(seurat_obj,
 
 
 # PASTA: calculate polyA residuals (tandem)
-library(PASTA)
-library(EnsDb.Hsapiens.v86)
-library(org.Hs.eg.db)
-library(clusterProfiler)
-library(dplyr)
-library(data.table)
-library(MGLM)
-library(gplm)
-library(stats)
+library(PASTA) # Version 0.1.0
+library(EnsDb.Hsapiens.v86) # Version 2.99.0
+library(org.Hs.eg.db) # Version 3.19.1
+library(clusterProfiler) # Version 4.12.5
+library(dplyr) # Version 1.1.4
+library(data.table) # Version 1.15.4
+library(MGLM) # Version 0.2.1
+library(gplm) # Version 0.7.4
+library(stats) # Version 4.4.0
 
 args<-commandArgs(trailingOnly = TRUE)
 counts.file = args[1]
