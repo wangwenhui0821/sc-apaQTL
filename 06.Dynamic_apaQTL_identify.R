@@ -1,24 +1,24 @@
-library("reticulate")
-library("yaml")
-library("tidyverse")
-library("Seurat")
-library("future")
-library("future.apply")
-library("phateR")
-library("slingshot")
-library("dittoSeq")
-library("ggpubr")
-library("Matrix")
-library("data.table")
-library("stringr")
-library("preprocessCore")
-library("impute")
-library("utils")
-library("lme4")
-library("qvalue")
-library("ComplexHeatmap")
-library("rsvg")
-library("qpdf")
+library("reticulate") # 1.39.0
+library("yaml") # 2.3.10
+library("tidyverse") # 2.0.0
+library("Seurat") # 4.3.0
+library("future") # 1.33.2
+library("future.apply") # 1.11.2
+library("phateR") # 1.0.7
+library("slingshot") # 2.7.0
+library("dittoSeq") # 1.2.6
+library("ggpubr") # 0.6.0
+library("Matrix") # 1.6.1.1
+library("data.table") # 1.16.2
+library("stringr") # 1.5.1
+library("preprocessCore") # 1.61.0
+library("impute") # 1.78.0
+library("utils") # 4.0.3
+library("lme4") #  1.1.35.3
+library("qvalue") # 2.22.0
+library("ComplexHeatmap") # 2.20.0
+library("rsvg") # 2.0
+library("qpdf") # 1.2.0
 
 # Paraments-debug
 if(TRUE){
