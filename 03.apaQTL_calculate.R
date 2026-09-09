@@ -1,11 +1,11 @@
-suppressWarnings(suppressMessages(library("tidyverse")))
-suppressMessages(library("MatrixEQTL"))
-suppressMessages(library("utils"))
-suppressMessages(library("stringr"))
-suppressMessages(library("dplyr"))
-suppressMessages(library("optparse"))
-suppressMessages(library("data.table"))
-suppressMessages(library("Matrix"))
+suppressWarnings(suppressMessages(library("tidyverse"))) # 2.0.0
+suppressMessages(library("MatrixEQTL")) # 2.3
+suppressMessages(library("utils")) # 4.0.3
+suppressMessages(library("stringr")) # 1.5.1
+suppressMessages(library("dplyr")) # 1.1.4
+suppressMessages(library("optparse")) # 1.7.5
+suppressMessages(library("data.table")) # 1.16.2
+suppressMessages(library("Matrix")) # 1.6.1.1
 
 VERSION = "V3.2.0 2024-12-17"
 
