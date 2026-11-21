@@ -15,6 +15,7 @@ This project relies on several R packages for data processing, statistical analy
 - Genomic analysis: GenomicRanges, edgeR, MatrixEQTL
 - Statistical analysis: lme4, qvalue, coloc, moloc, TwoSampleMR, gsmr2
 - Visualization: ggplot2, ggpubr, ComplexHeatmap
+
 The complete list of package dependencies and their versions is provided in `requirements.txt`.
 
 ## 01.genotype.sh
