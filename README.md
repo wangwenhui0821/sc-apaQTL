@@ -22,6 +22,33 @@ The main R packages used in this project include：
 
 The complete list of package dependencies and their versions is provided in `requirements.txt`.
 
+## Analysis Workflow
+The following commands can be used to run the main analysis scripts and the codes are provided in the `code/` directory..
+Example input and output files for selected analyses are provided in the `data/` directory.
+
+### 1. Data preprocessing and APA quantification
+- The shell script `01.genotype.sh` was used to perform quality control and preprocessing of genotype data.
+- The shell script `02.PASTA.sh` was used to quantify alternative polyadenylation (APA) events and generate polyA site usage matrices.
+```bash
+bash code/01.genotype.sh
+bash code/02.PASTA.sh
+```
+
+### 2. apaQTL identification and cell-type-specific analysis
+- The R script `03.apaQTL_calculate.R` was used to identify apaQTLs for each cell type. The R package MatrixEQTL was utilized to test for association between genotype and ployA residual.
+- The R script `04.apaQTL_MASH.R` utilized the mash method to elucidate the heterogeneity of apaQTL effect sizes across different cell types.
+
+### 3. Dynamic APA analysis
+- The R script `05.Dynamic_PAS_identify.R` was used to identify polyA sites with dynamic APA usage along the B cell maturation pseudotime.
+- The R script `06.Dynamic_apaQTL_identify.R` was used to identify apaQTLs with pseudotime-dependent effects, revealing dynamic genetic regulation of APA during B cell maturation.
+
+### 4. Genetic association and causal inference analyses
+- The shell script `07.LDSC.sh` was used to compute partitioned heritability.
+- The R script `08.COLOC.R` was used for colocalization analysis of apaQTLs with GWAS associated autoimmune diseases.
+- The shell script `09.SMR.sh` was used to perform summary-data-based Mendelian randomization (SMR) analysis.
+- The R script `10.MOLOC.R` was used to perform multi-trait colocalization analysis integrating apaQTL, pQTL, and GWAS data.
+- The R script `11.Mediation.R` was used to perform mediation analysis integrating apaQTL, pQTL, and GWAS data to evaluate potential causal pathways linking genetic variants, APA regulation, protein abundance, and disease risk.
+
 ## 01.genotype.sh
 The shell script `01.genotype.sh` was used to perform quality control and preprocessing of genotype data.
 
