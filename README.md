@@ -23,7 +23,7 @@ The main R packages used in this project include：
 The complete list of package dependencies and their versions is provided in `requirements.txt`.
 
 ## Analysis Workflow
-The scripts for the main analytical steps are provided in the code/ directory. 
+The scripts for the main analytical steps are provided in the code/ directory, including plot.R for reproducing the main figures.
 Example input and output files for selected analyses are available in the data/ directory. The following commands illustrate how to run the main analysis scripts.
 
 ### Step1. Data preprocessing and APA quantification
