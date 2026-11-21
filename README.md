@@ -20,7 +20,7 @@ The main R packages used in this project include：
 - ggplot2 3.5.2
 - ComplexHeatmap 2.20.0
 
-The complete list of package dependencies and their versions is provided in `requirements.txt`.
+The complete list of package dependencies and their versions is provided in `Requirements.txt`.
 
 ## Analysis Workflow
 The scripts for the main analytical steps are provided in the `code/` directory, including `plot.R` for reproducing the main figures.
