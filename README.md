@@ -9,44 +9,13 @@ To run this project, the following software environments are required:
 - R 4.0.3
 
 ## R package dependencies
-The following R packages and versions are required:
-- tidyverse 2.0.0
-- MatrixEQTL 2.3
-- utils 4.0.3
-- stringr 1.5.1
-- dplyr 1.1.4
-- optparse 1.7.5
-- data.table 1.16.2
-- Matrix 1.6.1.1
-- yaml 2.3.10
-- R.utils 2.12.3
-- tibble 3.3.1
-- reticulate 1.39.0
-- yaml 2.3.10
-- Seurat 4.3.0
-- future 1.33.2
-- future.apply 1.11.2
-- phateR 1.0.7
-- slingshot 2.7.0
-- dittoSeq 1.2.6
-- ggpubr 0.6.0
-- preprocessCore 1.61.0
-- impute 1.78.0
-- utils 4.0.3
-- lme4 1.1.35.3
-- qvalue 2.22.0
-- ComplexHeatmap 2.20.0
-- parallel 4.0.3
-- coloc 5.2.3
-- dplyr 1.1.4
-- moloc 0.1.0
-- purrr 1.0.4
-- survey 4.2.1
-- gsmr2 1.1.1
-- TwoSampleMR 0.6.6
-- plinkbinr 0.0.0.9000
-- ieugwasr Version 1.1.0
-- ggplot2 3.5.2
+This project relies on several R packages for data processing, statistical analysis, genomic analysis, and visualization, including:
+- Data processing: tidyverse, data.table, Matrix
+- Single-cell analysis: Seurat, slingshot, dittoSeq, phateR
+- Genomic analysis: GenomicRanges, edgeR, MatrixEQTL
+- Statistical analysis: lme4, qvalue, coloc, moloc, TwoSampleMR, gsmr2
+- Visualization: ggplot2, ggpubr, ComplexHeatmap
+The complete list of package dependencies and their versions is provided in `requirements.txt`.
 
 ## 01.genotype.sh
 The shell script `01.genotype.sh` was used to perform quality control and preprocessing of genotype data.
