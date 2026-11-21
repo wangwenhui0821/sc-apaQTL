@@ -1,7 +1,7 @@
 # sc-apaQTL
 
 ## Description
-Alternative polyadenylation (APA) is a pervasive post-transcriptional mechanism regulating gene expression and disease susceptibility, yet its genetic architecture across cell types and developmental states remains incompletely defined. To address this, we provide a high-resolution, cell-type-resolved atlas of APA genetic regulation in human immune cells and establishes APA as a critical molecular layer linking genetic variation to immune function and autoimmune disease susceptibility.
+Alternative polyadenylation (APA) is a pervasive post-transcriptional mechanism regulating gene expression and disease susceptibility, yet its genetic architecture across cell types and developmental states remains incompletely defined. To address this, we provide a high-resolution, cell-type-resolved atlas of APA genetic regulation in human immune cells and establish APA as a critical molecular layer linking genetic variation to immune function and autoimmune disease susceptibility.
 
 ## Requirements
 To run this project, the following software environments are required:
