@@ -24,6 +24,7 @@ The complete list of package dependencies and their versions is provided in `req
 
 ## Analysis Workflow
 The scripts for the main analytical steps are provided in the code/ directory. 
+
 Example input and output files for selected analyses are available in the data/ directory. The following commands illustrate how to run the main analysis scripts.
 
 ### Step1. Data preprocessing and APA quantification
