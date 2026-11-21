@@ -52,7 +52,7 @@ Rscript code/06.Dynamic_apaQTL_identify.R
 
 ### Step4. Integrative genetic analyses of apaQTLs in autoimmune diseases
 - The shell script `07.LDSC.sh` was used to compute partitioned heritability.
-- The R script `08.COLOC.R` was used for colocalization analysis of apaQTLs with GWAS associated autoimmune diseases.
+- The R script `08.COLOC.R` was used for colocalization analysis of apaQTLs with GWAS signals for autoimmune diseases.
 - The shell script `09.SMR.sh` was used to perform summary-data-based Mendelian randomization (SMR) analysis.
 - The R script `10.MOLOC.R` was used to perform multi-trait colocalization analysis integrating apaQTL, pQTL, and GWAS data.
 - The R script `11.Mediation.R` was used to perform mediation analysis integrating apaQTL, pQTL, and GWAS data to evaluate potential causal pathways linking genetic variants, APA regulation, protein abundance, and disease risk.
