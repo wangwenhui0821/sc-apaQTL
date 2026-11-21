@@ -34,5 +34,5 @@ The following R packages and versions are required:
 - gsmr2 1.1.1
 - TwoSampleMR 0.6.6
 - plinkbinr 0.0.0.9000
-- ieugwasr Version 1.1.0
+- ieugwasr 1.1.0
 - ggplot2 3.5.2
