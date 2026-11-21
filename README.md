@@ -29,7 +29,7 @@ The shell script `01.genotype.sh` was used to perform quality control and prepro
 The shell script `02.PASTA.sh` was used to quantify alternative polyadenylation (APA) events and generate polyA site usage matrices.
 
 ## 03.apaQTL_calculate.R
-The R script `03.apaQTL_calculate.R` was used to identify apaQTLs for each cell type. The R package Matrix eQTL was utlilized to test for association between genotype and ployA residual.
+The R script `03.apaQTL_calculate.R` was used to identify apaQTLs for each cell type. The R package MatrixEQTL was utilized to test for association between genotype and ployA residual.
 
 ## 04.apaQTL_MASH.R
 The R script `04.apaQTL_MASH.R` utilized the mash method to elucidate the heterogeneity of apaQTL effect sizes across different cell types.
