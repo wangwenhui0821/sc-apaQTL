@@ -5,7 +5,9 @@ Alternative polyadenylation (APA) is a pervasive post-transcriptional mechanism 
 
 ## Requirements
 To run this project, the following software environments are required:
+
 Python 3.9.19
+
 R 4.0.3
 
 ## 01.genotype.sh
