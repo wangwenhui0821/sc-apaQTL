@@ -8,7 +8,7 @@ To run this project, the following software environments are required:
 - Python 3.9.19
 - R 4.0.3
 
-## R package dependencies
+## R Package Dependencies
 This project relies on several R packages for data processing, statistical analysis, genomic analysis, and visualization, including:
 - Data processing: tidyverse, data.table, Matrix
 - Single-cell analysis: Seurat, slingshot, dittoSeq, phateR
