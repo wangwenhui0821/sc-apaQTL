@@ -9,13 +9,16 @@ To run this project, the following software environments are required:
 - R 4.0.3
 
 ## R Package Dependencies
-This project relies on several R packages for data processing, statistical analysis, genomic analysis, and visualization, including:
-- Data processing: tidyverse, data.table, Matrix
-- Single-cell analysis: Seurat, slingshot, dittoSeq, phateR
-- Genomic analysis: GenomicRanges, edgeR, MatrixEQTL
-- Statistical analysis: lme4, qvalue, coloc, moloc, TwoSampleMR, gsmr2
-- Visualization: ggplot2, ggpubr, ComplexHeatmap
-
+The main R packages used in this project include：
+- tidyverse 2.0.0
+- data.table 1.16.2
+- MatrixEQTL 2.3
+- Seurat 4.3.0
+- slingshot 2.7.0
+- coloc 5.2.3
+- TwoSampleMR 0.6.6
+- ggplot2 3.5.2
+- ComplexHeatmap 2.20.0
 The complete list of package dependencies and their versions is provided in `requirements.txt`.
 
 ## 01.genotype.sh
