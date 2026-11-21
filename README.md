@@ -19,6 +19,7 @@ The main R packages used in this project include：
 - TwoSampleMR 0.6.6
 - ggplot2 3.5.2
 - ComplexHeatmap 2.20.0
+
 The complete list of package dependencies and their versions is provided in `requirements.txt`.
 
 ## 01.genotype.sh
