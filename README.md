@@ -23,8 +23,8 @@ The main R packages used in this project include：
 The complete list of package dependencies and their versions is provided in `requirements.txt`.
 
 ## Analysis Workflow
-The following commands can be used to run the main analysis scripts and the codes are provided in the `code/` directory..
-Example input and output files for selected analyses are provided in the `data/` directory.
+The scripts for the main analytical steps are provided in the code/ directory. 
+Example input and output files for selected analyses are available in the data/ directory. The following commands illustrate how to run the main analysis scripts.
 
 ### Step1. Data preprocessing and APA quantification
 - The shell script `01.genotype.sh` was used to perform quality control and preprocessing of genotype data.
