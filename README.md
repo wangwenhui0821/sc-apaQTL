@@ -5,13 +5,11 @@ Alternative polyadenylation (APA) is a pervasive post-transcriptional mechanism 
 
 ## Requirements
 To run this project, the following software environments are required:
-
 - Python == 3.9.19
 - R == 4.0.3
 
 ## R package dependencies
 The following R packages and versions are required:
-
 - tidyverse == 2.0.0
 - MatrixEQTL == 2.3
 - utils == 4.0.3
